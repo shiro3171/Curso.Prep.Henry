@@ -7,10 +7,10 @@ function crearGato(nombre, edad) {
   // Devuelve el objeto
   // Tu código:
   var obj = {
-    nombre: "nombre",
-    edad: "edad",
+    nombre: "Snowball",
+    edad: 1,
     meow: function() {
-      return "Meow!";
+      return 'Meow!';
     }
   };
   return obj;
@@ -22,8 +22,8 @@ function agregarPropiedad(objeto, property) {
   // Devuelve el objeto
   // NOTA: El nombre de la propiedad no es "propiedad", el nombre es el valor del argumento llamado "property" (una cadena/string)
   // Tu código:
-  obj[property] = null;
-  return obj;
+  objeto["property"] = null;
+  return objeto;
 }
 
 function invocarMetodo(objeto, metodo) {
