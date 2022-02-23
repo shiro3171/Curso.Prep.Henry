@@ -20,6 +20,7 @@ function crearUsuario() {
   
     return Usuario;
 }
+}
 
 function agregarMetodoPrototype(Constructor) {
   // Agrega un método al Constructor del `prototype`
