@@ -12,6 +12,7 @@ img {
     background-color: black;
     padding: 50px;
     border: 10px solid blue; 
+    margin: 50px;
 }
 
 #spanID {
